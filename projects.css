@@ -1,0 +1,35 @@
+
+main{
+    display: grid;
+    grid-template: 1fr 1fr / 1fr;
+    margin-top: 2rem;
+}
+
+h2{
+    text-align: center;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
+.content button{
+   max-width: 10rem;
+}
+
+.content-main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-main p{
+    max-width: 50%;
+}
+
+.content-buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
