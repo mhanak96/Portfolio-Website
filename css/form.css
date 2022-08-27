@@ -1,9 +1,13 @@
-form{
+main{
     display: flex;
     flex-direction: column;
     width: 100%;
     justify-content: space-between;
     height: 100vh;
+}
+
+h2{
+    text-align: center;
 }
 
 form > * {

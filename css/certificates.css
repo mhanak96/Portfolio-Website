@@ -1,0 +1,58 @@
+body{
+    height: 100vh;
+}
+
+main{
+    gap: 2rem;
+}
+
+h3{
+    text-align: center;
+    text-justify: center;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.card{
+    text-align: center;
+    height: auto;
+    min-height: unset;
+}
+
+.card button{
+    height: 3rem;
+    width: 10rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.content p{
+    text-align: center;
+    max-width: unset;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.cerf-logo{
+    margin-top: 1rem;
+}
+
+img{
+    object-fit: contain;
+}
+
+@media (min-width: 850px) {
+    
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 80vh;
+    }
+    
+    main{
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+    }
+}
