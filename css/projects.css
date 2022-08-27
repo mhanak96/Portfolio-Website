@@ -4,11 +4,16 @@ main{
     grid-template: 1fr 1fr / 1fr;
     margin-top: 3rem;
     gap: 3rem;
-    height: 100vh;
+    max-height: 100vh;
+    justify-items: center;
 }
 
 main:last-child{
     margin-bottom: 3rem;
+}
+
+i{
+    cursor: pointer;
 }
 
 h1{
@@ -34,6 +39,7 @@ h2{
 .card{
     /* max-height: 25%; */
     border-radius: 1rem;
+    max-width: 500px;
 }
 
 .content button{
@@ -107,6 +113,14 @@ i{
 
 }
 
+.container{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
 
 footer{
     height: 0.1vh;
@@ -116,6 +130,20 @@ footer{
 @media(min-width:850px) {
     main{
         grid-template: 1fr 1fr / 1fr 1fr;
+        max-width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        row-gap: 2rem;
+        column-gap: 2rem;
+    }
+
+    i{
+        margin-left: 0;
+    }
+
+    .card{
+        height: 100%;
+        width: 100%;
     }
     
 }

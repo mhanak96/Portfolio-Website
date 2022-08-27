@@ -18,6 +18,7 @@ h3{
     text-align: center;
     height: auto;
     min-height: unset;
+    max-width: 33%;
 }
 
 .card button{
