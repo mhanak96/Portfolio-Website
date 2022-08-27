@@ -1,15 +1,29 @@
+body{
+    /* height: auto; */
+}
 
 main{
     display: grid;
-    grid-template: 1fr 1fr / 1fr;
-    margin-top: 3rem;
-    gap: 3rem;
-    max-height: 100vh;
+    grid-template: 1fr 1fr 1fr 1fr/ 1fr;
+    gap: 1.5rem;
     justify-items: center;
+    height: 100%;
+    overflow-y: scroll;
+    margin-top: 2rem;
+    margin-bottom: 2.5rem;
+}
+
+.container{
+ width: 100vw;
 }
 
 main:last-child{
-    margin-bottom: 3rem;
+    
+}
+
+nav i{
+    margin-left: 2em;
+    margin-bottom: 0;
 }
 
 i{
@@ -20,10 +34,6 @@ h1{
     max-width: 100%;
     text-justify: center;
     font-size: 32px;
-    /* margin-left: 1rem;
-    margin-right: 1rem;
-    text-align: center;
-    /* text-justify: center; */
 } 
 
 h2{
@@ -115,26 +125,44 @@ i{
 
 .container{
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     width: 100%;
-    margin-left: 2rem;
-    margin-right: 2rem;
 }
-
 
 footer{
-    height: 0.1vh;
-    visibility: hidden;
+    display: none;
 }
 
-@media(min-width:850px) {
+
+@media(min-width:1050px) {
+    h2{
+        font-size: 40px;
+        margin-top: 1rem;
+    }
+
+    p{
+        font-size: 20px;
+    }
+
+    .content-buttons{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    
     main{
         grid-template: 1fr 1fr / 1fr 1fr;
-        max-width: 60%;
-        margin-left: auto;
-        margin-right: auto;
+        max-width: 1023px;
+        margin-left: 1rem;
+        margin-right: 1rem;
         row-gap: 2rem;
         column-gap: 2rem;
+    }
+
+    .container{
+        margin-left: 0;
+        margin-right: 0;
+        height: 90vh;
+        align-items: center;
     }
 
     i{

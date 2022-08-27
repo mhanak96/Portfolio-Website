@@ -18,7 +18,7 @@ h3{
     text-align: center;
     height: auto;
     min-height: unset;
-    max-width: 33%;
+    max-width: 90%;
 }
 
 .card button{
@@ -26,6 +26,17 @@ h3{
     width: 10rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
+}
+
+.flexible{
+    flex-grow: 1;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .content p{
@@ -46,14 +57,33 @@ img{
     
     .container{
         display: flex;
-        flex-direction: column;
         justify-content: center;
-        height: 80vh;
+        height: 90vh;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
     }
     
     main{
         display: flex;
         flex-direction: row;
         gap: 1rem;
+    }
+
+    .card{
+        max-width: 300px;
+    }
+
+    .harv{
+        order: 2;
+    }
+
+    .res{
+        order: 1;
+    }
+
+    .ui{
+        order: 3;
     }
 }
