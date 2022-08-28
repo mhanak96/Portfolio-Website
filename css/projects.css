@@ -33,6 +33,7 @@ i{
 h1{
     max-width: 100%;
     text-justify: center;
+    text-align: center;
     font-size: 32px;
 } 
 
@@ -155,6 +156,8 @@ footer{
         margin-right: 1rem;
         row-gap: 2rem;
         column-gap: 2rem;
+        overflow: hidden;
+        max-height: 590px;
     }
 
     .container{
@@ -169,6 +172,7 @@ footer{
     }
 
     .card{
+        max-height: 280px;
         height: 100%;
         width: 100%;
     }

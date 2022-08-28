@@ -3,6 +3,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     margin: solid 2px red;
 }
 
@@ -16,6 +17,7 @@ main{
 }
 
 h2{
+    margin-top: 0.8rem;
     text-align: center;
     margin-left: 1em;
     margin-right: 1em;
@@ -96,9 +98,10 @@ form > * {
         grid-template: 1fr / 1fr 1fr;
         grid-template-areas: 
         "header form";
-        align-items: center;
+        align-items: flex-start;
         justify-items: center;
         width: 90%;
+        max-height: 514px;
     }
 
     .socials-form{
@@ -118,7 +121,6 @@ form > * {
     h2{
         grid-area: header;
         align-self: flex-start;
-        margin-top: 5.5rem;
     }
 
     form{
@@ -129,7 +131,7 @@ form > * {
     .socials-form{
         grid-area: header;
         align-self: flex-start;
-        margin-top: 13rem;
+        margin-top: 8rem;
     }
 }
 
