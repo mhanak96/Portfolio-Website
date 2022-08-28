@@ -4,6 +4,8 @@ body{
 
 main{
     gap: 2rem;
+    display: flex;
+    flex-direction: column;
 }
 
 h3{
@@ -11,25 +13,30 @@ h3{
     text-justify: center;
     margin-right: 1rem;
     margin-left: 1rem;
-    margin-top: 1rem;
+    margin-top: auto;
 }
 
 .card{
     text-align: center;
-    height: auto;
     min-height: unset;
-    max-width: 90%;
+    max-width: 603px;
+}
+
+.card:last-of-type{
+    margin-bottom: 2rem;
 }
 
 .card button{
     height: 3rem;
     width: 10rem;
-    margin-top: 1rem;
+    margin-top: auto;
     margin-bottom: 1rem;
+    margin-top: 1rem;
 }
 
 .flexible{
     flex-grow: 1;
+    margin-top: auto;
 }
 
 .content{
@@ -37,6 +44,7 @@ h3{
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
+    margin-top: 1rem;
 }
 
 .content p{
@@ -44,35 +52,69 @@ h3{
     max-width: unset;
     margin-left: 1rem;
     margin-right: 1rem;
+    margin-top: auto;
+
 }
 .cerf-logo{
     margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 img{
-    object-fit: contain;
+    object-fit: cover;
 }
 
-@media (min-width: 850px) {
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.content button:hover{
+    border: 1px solid #62BA1B;;
     
+  }
+
+
+
+@media (min-width: 1137px) {
+
+    .cerf-logo{
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
     .container{
         display: flex;
         justify-content: center;
-        height: 90vh;
+        height: 83vh;
         margin-bottom: 2rem;
         margin-top: 2rem;
         margin-left: 1rem;
         margin-right: 1rem;
+    }
+
+    .certificate{
+        /* position: absolute;
+        bottom: 5px; */
+        margin-top: auto;
     }
     
     main{
         display: flex;
         flex-direction: row;
         gap: 1rem;
+        height: 100%;
     }
 
     .card{
-        max-width: 300px;
+        max-width: 300px;    
+        flex-wrap: wrap;
+        align-self: normal;
+        display: flex;
+        justify-content: center;
+        height: 100%;
     }
 
     .harv{

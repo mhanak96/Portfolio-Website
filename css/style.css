@@ -199,7 +199,7 @@ html{
         .exit {
             width: 2em;
             float: right;
-            /* margin: .5em; */
+            margin: .3em; 
             cursor: pointer;
         }
 
