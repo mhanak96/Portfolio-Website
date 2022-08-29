@@ -12,7 +12,7 @@
 </head>
 <body>
     <header>
-        <a href="#" class="logo">Mateusz Hanak</a> 
+        <a href="index.html" class="logo">Mateusz Hanak</a> 
         <svg height="32px" id="menu-btn" class="open" viewBox="0 0 32 32">
             <path fill="white" d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2  s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2  S29.104,22,28,22z"/>
         </svg>
@@ -35,7 +35,7 @@
     </header>
     <div class="container">
         <main>
-            <div class="card harv">
+            <div class="card card-harv">
                 <div class="cerf-logo"> 
                     <img src="img/harvard.png">
                 </div>
@@ -43,10 +43,10 @@
                     <h3>HarvardX: CS50</h3>
                     <p class="date">July 14, 2022</p>
                     <p class="desc flexible">CS50x teaches students how to think algorithmically and solve problems efficiently. Topics include algorithms, data structures, software engineering, and web development.</p>
-                    <button class="certificate">See the certificate</button>
+                    <button class="certificate harv">See the certificate</button>
                 </div>
             </div>
-            <div class="card respons">
+            <div class="card card-respons">
                 <div class="cerf-logo"> 
                     <img src="img/scrimba.png">
                 </div>
@@ -54,10 +54,10 @@
                     <h3>Scrimba: Learn Responsive Web Design</h3>
                     <p class="date">August 13, 2022</p>
                     <p class="desc flexible">Course by Kevin Powell, focusing on building advanced layouts while solving coding challenges along the way.</p>
-                    <button class="certificate">See the certificate</button>
+                    <button class="certificate response">See the certificate</button>
                 </div>
             </div>
-            <div class="card ui">
+            <div class="card ui-card">
                 <div class="cerf-logo"> 
                     <img src="img/scrimba.png">
                 </div>
@@ -65,18 +65,18 @@
                     <h3>Scrimba: Learn UI Design</h3>
                     <p class="date">August 14, 2022</p>
                     <p class="desc flexible">Course by Gary Simon in which he teaches, how to build beautiful and well-functioning user interfaces using HTML and CSS.</p>
-                    <button class="certificate">See the certificate</button>
+                    <button class="certificate ui">See the certificate</button>
                 </div>
             </div>
 
             <div class="cert-list">
-                <img src="img/CS50x.png">
-                <img src="img/responsive.png">
-                <img src="img/UIdesign.png">
+                <img class="harv-img" src="img/CS50x.png">
+                <img class="skp-img" src="img/responsive.png">
+                <img class="ui-img" src="img/UIdesign.png">
             </div>
 
             <div class="popup-cerf">
-                <span>&times</span>
+                <span class="close-btn">&times</span>
                 <img src="img/CS50x.png">
             </div>
         </main>

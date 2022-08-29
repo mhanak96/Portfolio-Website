@@ -5,6 +5,7 @@ main{
     align-items: center;
     justify-content: center;
     margin: solid 2px red;
+    min-height: 660px;
 }
 
 .container{
@@ -14,6 +15,7 @@ main{
     align-items: center;
     width: 100%;
     max-width: 600px;
+    min-height: 660px;
 }
 
 h2{

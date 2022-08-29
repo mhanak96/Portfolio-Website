@@ -39,6 +39,7 @@ html{
             margin-left: 5%;
             margin-bottom: 2%;
             background: var(--background-header);
+            min-height: 47px;
         }
 
         .logo{
@@ -203,7 +204,7 @@ html{
             cursor: pointer;
         }
 
-        .open {
+    .open {
     cursor: pointer;
     margin: .5em;
 
