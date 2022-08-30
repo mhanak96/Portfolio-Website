@@ -31,6 +31,7 @@ html{
         color: var(--text);
         overflow-x: hidden;
         font-family: var(--font-main);
+        min-height: 500px;
     }
 
         header{
@@ -98,6 +99,7 @@ html{
         max-height: 87.9%;
         gap: 1rem;
         justify-content: space-between;
+        overflow: hidden;
     }
         .hero-content{
             margin-top: auto;
