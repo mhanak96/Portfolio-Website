@@ -94,6 +94,11 @@ align-items: center;
    
 }
 
+.progress--btn{
+    background: none;
+    box-shadow: none;
+}
+
 .bt{
     margin-bottom: 0;
 }
